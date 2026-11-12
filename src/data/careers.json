@@ -1,0 +1,331 @@
+[
+  {
+    "career_id": "mobile_dev",
+    "name": "Mobile App Developer",
+    "degree_gate": "BSc Computer Science / Software Engineering / Electrical Engineering / Self-Taught Portfolio",
+    "professional_body": "IEEE / ACM / Google Developer Experts / Apple Developer Program",
+    "phases": [
+      {
+        "id": "learn",
+        "label": "1. Career Foundations (School & Ecosystems)",
+        "type": "reading",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "platform_ecosystem",
+            "description": "Understands native iOS/Android versus cross-platform tradeoffs (React Native, Flutter, Kotlin Multiplatform) and mobile app lifecycles."
+          },
+          {
+            "criterion": "graduate_readiness",
+            "description": "Articulates prerequisite core knowledge before graduating: CS fundamentals, memory limits, battery constraints, app store review guidelines, and security."
+          }
+        ],
+        "content": "MOBILE APP DEVELOPMENT: CAREER FOUNDATIONS & ECOSYSTEMS\n\n1. What Mobile App Development is All About:\nMobile engineering is the discipline of building software for constrained handheld computers (smartphones, foldables, wearables). Unlike web servers with unlimited electricity and gigabytes of memory, mobile devices have strict battery thermal throttles, dynamic network drops (offline/4G/5G transitions), and touch/haptic interactions.\n\n2. Key Industries You Can Work In:\n- FinTech & Banking (OPay, Moniepoint, Revolut, Stripe): High-security biometric auth, offline ledger sync, zero crash tolerance, KYC flows.\n- E-Commerce & Logistics (Uber, Amazon, Jumia): Real-time geolocation tracking, battery-efficient GPS geofencing, push notifications, camera barcode scanning.\n- HealthTech & Telemedicine: Bluetooth Low Energy (BLE) peripheral pairing, local encrypted storage (SQLCipher/Keychain), HIPAA/GDPR health data compliance.\n- Gaming & Entertainment (Spotify, TikTok, Duolingo): Frame-budget rendering (120fps/60fps), audio/video caching, low-latency WebSockets.\n\n3. Things You Must Know Before Graduating from School:\n- Platform Paradigms: Declarative UI (Jetpack Compose on Android, SwiftUI on iOS, React Native, Flutter) vs imperative legacy views.\n- Memory & Lifecycle: Mobile OS kills apps aggressively in the background. Saving instance state and avoiding memory leaks (e.g. retained context in async listeners) is essential.\n- App Store Review Guidelines: Apple App Store and Google Play Store rejection triggers (hidden subscription terms, privacy manifest breaches, crash on launch).",
+        "questions": [
+          "Explain why memory management and background lifecycle handling are drastically more critical on mobile devices than in cloud/backend development, and what happens when an app leaks memory in the background.",
+          "Compare native development (Swift/Kotlin) with cross-platform frameworks (React Native/Flutter). State what factors decide which stack an engineering team should pick for a high-performance FinTech app."
+        ]
+      },
+      {
+        "id": "internship",
+        "label": "2. Internship Stage (Practical Lab & Bug Squashing)",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "ui_layout_engineering",
+            "description": "Builds responsive mobile component layouts handling notch insets, dynamic font sizing, and offline error states."
+          },
+          {
+            "criterion": "debugging_and_async",
+            "description": "Identifies async race conditions, handles network timeouts gracefully, and fixes UI-thread freezing."
+          }
+        ],
+        "brief": "You are a Mobile Developer Intern at a fast-growing mobile tech startup. You are assigned to the Core App Team under a friendly senior engineer (Coach Tunde). Your task is to implement the offline-first transaction feed and fix a critical UI lag reported on low-end Android and older iPhones.\n\nYour assignment:\n1. Mobile Component Architecture: Design the transaction list component handling pagination, pull-to-refresh, skeleton shimmer loaders, and safe area insets (notches/home indicator).\n2. Offline Caching Strategy: Define the local persistence layer (SQLite/Room or Realm/WatermelonDB) with optimistic UI updates when users trigger a payment without internet.\n3. Main Thread Performance Audit: Diagnose why scrolling stuttered (jank below 60fps) and explain how moving JSON parsing to a background worker isolate/coroutine resolves it."
+      },
+      {
+        "id": "job_prep",
+        "label": "3. Job Prep & Hiring (Hunting, Assessment & Interview)",
+        "type": "interview",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "technical_screening_rigor",
+            "description": "Solves data structure, state management, and mobile architectural design questions under time constraints."
+          },
+          {
+            "criterion": "career_positioning",
+            "description": "Articulates production portfolio achievements, GitHub open-source contributions, and behavioral STAR stories."
+          }
+        ],
+        "questions": [
+          "In a live coding assessment, you are asked: How would you design an efficient image caching library for a mobile app feed (similar to Instagram) so images don't reload or cause Out-Of-Memory (OOM) errors during fast scrolling?",
+          "Explain the difference between MVVM, MVI, and Clean Architecture on mobile. Which do you choose for an app with complex asynchronous state transitions?",
+          "Behavioral Question: Tell me about a time an app feature you built was rejected by the App Store or crashed in production. How did you diagnose, communicate, and fix it under pressure?",
+          "Salary & Offer Evaluation: A tech startup offers you a mobile engineer role with below-market base salary but high unvested equity options. How do you assess this offer and negotiate compensation professionally?"
+        ]
+      },
+      {
+        "id": "trainee",
+        "label": "4. Graduate Trainee Phase (Production Architecture & Mentorship)",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "network_resilience",
+            "description": "Implements resilient HTTP client with exponential backoff retries, SSL pinning, and token refresh interceptors."
+          },
+          {
+            "criterion": "code_review_discipline",
+            "description": "Submits clean, modular pull requests adhering to CI/CD automated linting, test suites, and strict superior standards."
+          }
+        ],
+        "brief": "You have graduated and joined a leading FinTech bank as a Graduate Trainee Mobile Engineer. Your superior is Tech Lead Emeka (demanding, zero-tolerance for sloppy code, rejects PRs without unit tests). You are tasked with building the secure biometric authentication and token-refresh interceptor module.\n\nDeliver your technical design PR description:\n1. Biometric Auth Workflow: Integration of FaceID/Fingerprint biometric hardware with hardware-backed secure enclave/keystore.\n2. Token Refresh Interceptor: Handling silent 401 Unauthorized token renewal queue when 5 concurrent API requests fire at the same moment without infinite loops.\n3. Automated CI/CD Pipeline: Testing strategy including unit tests with mock engines and screenshot regression tests."
+      },
+      {
+        "id": "junior",
+        "label": "5. Junior Mobile Engineer (Live Production Tasks & Salary Review)",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "feature_delivery",
+            "description": "Delivers production features end-to-end on schedule, handling edge cases, permissions, and accessibility."
+          },
+          {
+            "criterion": "commercial_negotiation",
+            "description": "Effectively prepares for compensation review and promotion milestones with documented delivery impact."
+          }
+        ],
+        "brief": "You are now a Junior Mobile Engineer handling production releases. You report to Product Director Brenda (fast-paced, high expectations). You just shipped the In-App KYC Document Scanner with on-device OCR, reducing onboarding drop-off by 28%!\n\nYour dual deliverable:\n1. Technical Post-Mortem & Feature Architecture: Document how your on-device ML scanner handles poor camera lighting, permissions denial, and memory cleanup without crashing.\n2. Salary Negotiation & Promotion Pitch: You are due for your annual performance review. Write your promotion case justifying a 40% salary increase from junior to mid-level based on business impact, metrics, and team contributions."
+      },
+      {
+        "id": "mid",
+        "label": "6. Mid-Level Mobile Engineer (Refactoring & Scale)",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "system_design",
+            "description": "Architects modular app multi-module structure, offline synchronization engines, and automated feature flags."
+          },
+          {
+            "criterion": "cross_functional_influence",
+            "description": "Balances product roadmap demands against technical debt and mobile crash-free user rates."
+          }
+        ],
+        "brief": "As a Mid-Level Mobile Engineer at a ride-hailing app company (1.2M daily active users), you deal with both relaxed superiors (Product Manager Sam, who just wants features out) and strict superiors (Head of Infrastructure Marcus, who blocks any PR that increases cold app startup time by 50ms).\n\nYour task: Lead the Migration from a monolithic codebase to a Multi-Module Feature Architecture with dynamic feature delivery.\n1. Multi-Module Dependency Graph: Isolate Core-Network, Core-DesignSystem, Feature-Rides, and Feature-Wallet.\n2. Cold Launch Optimization: Reduce app launch time from 3.2s to sub-1.2s through lazy dependency injection and baseline profiles.\n3. Crash-Free Rate Defense: Maintain 99.85% crash-free sessions across fragmented Android device tiers."
+      },
+      {
+        "id": "senior",
+        "label": "7. Senior Mobile Engineer (Architecture, Mentorship & Strategy)",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "architectural_governance",
+            "description": "Sets mobile engineering standards, design system tokens, and end-to-end CI/CD release automation."
+          },
+          {
+            "criterion": "leadership_and_negotiation",
+            "description": "Mentors junior engineers, resolves stakeholder technical deadlocks, and leads high-level executive compensation packages."
+          }
+        ],
+        "brief": "You are the Senior Staff Mobile Engineer. The company is launching in 4 new international countries with strict regional data residency laws and varying cellular network speeds. You direct the mobile engineering organization (16 engineers across iOS & Android).\n\nYour Executive Engineering Paper:\n1. Global Distribution Strategy: Dynamic app bundling, localized asset downloads, and multi-region backend routing.\n2. Executive Compensation & Equity Package: Formulate your compensation restructuring proposal (Base + Performance Bonus + Stock Grant vesting over 4 years) alongside your promotion to Principal Mobile Architect.\n3. Junior Mentorship Program: Design the peer review code guidelines to upskill junior developers and maintain zero security regressions."
+      },
+      {
+        "id": "lead",
+        "label": "8. Head of Mobile / VP of Mobile Engineering",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "org_scale_strategy",
+            "description": "Oversees cross-platform technology bets, engineering hiring roadmaps, and multimillion-dollar app infrastructure budgets."
+          },
+          {
+            "criterion": "business_impact",
+            "description": "Directly correlates mobile performance improvements to user retention, App Store conversion, and enterprise revenue."
+          }
+        ],
+        "brief": "You have reached the pinnacle: Head of Mobile Engineering. You report directly to the Chief Technology Officer (CTO) and the Board of Directors. The board is debating whether to rebuild the customer-facing app using Flutter/React Native or maintain dual native teams (Swift & Kotlin) as the company approaches a public listing (IPO).\n\nDeliver your Board Presentation Paper:\n1. 5-Year Technology Strategy: Comprehensive Total Cost of Ownership (TCO) analysis comparing Dual Native vs Unified Cross-Platform, developer hiring velocity in emerging markets, and long-term maintenance costs.\n2. Board Level Risk & Compliance Audit: Security measures against reverse engineering, tamper-proofing, automated penetration testing, and zero-day protection.\n3. Executive Retention & Team Health: Structuring competitive compensation bands, career ladders, and retaining top mobile engineering talent."
+      }
+    ]
+  },
+  {
+    "career_id": "audit",
+    "name": "Audit / Assurance",
+    "degree_gate": "BSc Finance / Accounting / Economics (2:1 minimum)",
+    "professional_body": "ACCA / ICAN",
+    "phases": [
+      {
+        "id": "learn",
+        "label": "Accounting Foundations & GAAP/IFRS",
+        "type": "reading",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "gaap_principles", "description": "Understands revenue recognition and prudence." }
+        ]
+      },
+      {
+        "id": "skills",
+        "label": "Financial Analysis & Internal Controls",
+        "type": "lesson",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "control_testing", "description": "Tests internal control environments." }
+        ]
+      },
+      {
+        "id": "application",
+        "label": "Trainee Articleship Application",
+        "type": "application",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "articleship_statement", "description": "Demonstrates commercial aptitude." }
+        ]
+      },
+      {
+        "id": "interview",
+        "label": "Audit Associate Technical Interview",
+        "type": "interview",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "professional_skepticism", "description": "Critically questions management assertions." }
+        ]
+      },
+      {
+        "id": "internship",
+        "label": "Substantive Testing & Workpapers",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "evidence_gathering", "description": "Prepares substantive audit workpapers." }
+        ]
+      },
+      {
+        "id": "junior",
+        "label": "Inventory Observation & Cash Cut-off",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "cut_off_testing", "description": "Executes physical count and cut-off reconciliation." }
+        ]
+      },
+      {
+        "id": "mid",
+        "label": "Going Concern & Audit Opinion",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "going_concern_evaluation", "description": "Assesses liquidity and going concern risks." }
+        ]
+      },
+      {
+        "id": "senior",
+        "label": "Audit Committee Assurance Paper",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "governance_reporting", "description": "Presents key audit matters to the audit committee." }
+        ]
+      }
+    ]
+  },
+  {
+    "career_id": "auto",
+    "name": "Automobile Engineer",
+    "degree_gate": "BEng / BSc Automotive / Mechanical / Mechatronics Engineering",
+    "professional_body": "COREN / NSE / IMechE",
+    "phases": [
+      { "id": "learn", "label": "Powertrain & Thermodynamics", "type": "reading", "status": "designed", "rubric": [{ "criterion": "thermal_efficiency", "description": "Demonstrates internal combustion and EV thermodynamic principles." }] },
+      { "id": "skills", "label": "Chassis Telemetry & ECU Diagnostics", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "diagnostic_accuracy", "description": "Interprets CAN-bus error logs and sensor telemetry." }] },
+      { "id": "application", "label": "Graduate Trainee Technical Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "engineering_competency", "description": "Demonstrates design and manufacturing evidence." }] },
+      { "id": "interview", "label": "Automotive Systems Panel Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "safety_compliance", "description": "Evaluates fail-safe architectures and braking safety protocols." }] },
+      { "id": "internship", "label": "Suspension Kinematics & Brake Sizing", "type": "task", "status": "designed", "rubric": [{ "criterion": "load_calculation", "description": "Calculates dynamic axle load transfer and stopping distance." }] },
+      { "id": "junior", "label": "Assembly Quality Assurance & NVH Audit", "type": "task", "status": "designed", "rubric": [{ "criterion": "quality_control", "description": "Identifies vibration harmonics and tolerance deviations." }] },
+      { "id": "mid", "label": "Hybrid Powertrain Calibration", "type": "task", "status": "designed", "rubric": [{ "criterion": "energy_management", "description": "Optimizes regenerative braking and battery discharge curves." }] },
+      { "id": "senior", "label": "Homologation & Fleet Reliability Paper", "type": "task", "status": "designed", "rubric": [{ "criterion": "regulatory_compliance", "description": "Presents emissions certification and lifecycle durability report." }] }
+    ]
+  },
+  {
+    "career_id": "swe",
+    "name": "Software Engineer",
+    "degree_gate": "BSc Computer Science / Software Engineering / Electrical Engineering",
+    "professional_body": "CPN / IEEE Computer Society / BCS",
+    "phases": [
+      { "id": "learn", "label": "Data Structures & Computational Complexity", "type": "reading", "status": "designed", "rubric": [{ "criterion": "algorithmic_logic", "description": "Evaluates time/space complexity and concurrency models." }] },
+      { "id": "skills", "label": "System Architecture & API Design", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "system_design", "description": "Designs idempotent, resilient distributed endpoints." }] },
+      { "id": "application", "label": "Engineering Residency Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "code_evidence", "description": "Presents verifiable production code and open-source contributions." }] },
+      { "id": "interview", "label": "Live Technical Architecture Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "tradeoff_evaluation", "description": "Navigates CAP theorem, cache consistency, and database sharding." }] },
+      { "id": "internship", "label": "Distributed Rate Limiter Implementation", "type": "task", "status": "designed", "rubric": [{ "criterion": "concurrency_handling", "description": "Implements token bucket algorithm with Redis atomic operations." }] },
+      { "id": "junior", "label": "Database Indexing & Query Optimization", "type": "task", "status": "designed", "rubric": [{ "criterion": "query_tuning", "description": "Eliminates full table scans and optimizes B-Tree index utilization." }] },
+      { "id": "mid", "label": "Event-Driven Microservices Refactor", "type": "task", "status": "designed", "rubric": [{ "criterion": "fault_tolerance", "description": "Designs dead-letter queues and event sourcing schema." }] },
+      { "id": "senior", "label": "Zero-Downtime Migration Architecture", "type": "task", "status": "designed", "rubric": [{ "criterion": "architectural_strategy", "description": "Directs dual-write synchronization and rollback failovers." }] }
+    ]
+  },
+  {
+    "career_id": "ib",
+    "name": "Investment Banker",
+    "degree_gate": "BSc Economics / Finance / Mathematics / Engineering / Business",
+    "professional_body": "CIS / SEC / CFA Institute",
+    "phases": [
+      { "id": "learn", "label": "Corporate Valuation & Capital Structures", "type": "reading", "status": "designed", "rubric": [{ "criterion": "valuation_methodology", "description": "Applies DCF, comparable company analysis, and precedent transactions." }] },
+      { "id": "skills", "label": "3-Statement Financial Modeling & LBO", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "model_mechanics", "description": "Builds dynamically linked financial statements with debt waterfalls." }] },
+      { "id": "application", "label": "Analyst Class Cover & Deal Sheet", "type": "application", "status": "designed", "rubric": [{ "criterion": "commercial_presentation", "description": "Articulates transaction rationale and financial market thesis." }] },
+      { "id": "interview", "label": "Managing Director M&A Case Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "strategic_defense", "description": "Defends merger accretion/dilution and synergy assumptions under scrutiny." }] },
+      { "id": "internship", "label": "Acquisition Pitch Book & WACC Calculation", "type": "task", "status": "designed", "rubric": [{ "criterion": "pitch_accuracy", "description": "Calculates unlevered beta, debt capacity, and purchase price multiple." }] },
+      { "id": "junior", "label": "Synergy Sensitivities & Debt Capacity Audit", "type": "task", "status": "designed", "rubric": [{ "criterion": "risk_modeling", "description": "Models interest coverage ratios under severe macro downside scenarios." }] },
+      { "id": "mid", "label": "Fairness Opinion & Transaction Structuring", "type": "task", "status": "designed", "rubric": [{ "criterion": "structuring_acumen", "description": "Structures earnouts, stock-for-stock exchange ratios, and break fees." }] },
+      { "id": "senior", "label": "Cross-Border IPO Syndicate Strategy", "type": "task", "status": "designed", "rubric": [{ "criterion": "capital_markets_strategy", "description": "Advises on dual-listing tranches, institutional book-building, and cornerstone allocations." }] }
+    ]
+  },
+  {
+    "career_id": "accountant",
+    "name": "Accountant",
+    "degree_gate": "BSc Accounting / Finance / Business Administration",
+    "professional_body": "ICAN / ANAN / ACCA",
+    "phases": [
+      { "id": "learn", "label": "IFRS Standards & Financial Reporting", "type": "reading", "status": "designed", "rubric": [{ "criterion": "accounting_principles", "description": "Applies revenue recognition (IFRS 15) and leases (IFRS 16)." }] },
+      { "id": "skills", "label": "Management Accounting & Variance Analysis", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "costing_precision", "description": "Computes standard costing variances and contribution margins." }] },
+      { "id": "application", "label": "Trainee Accountant Professional Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "professional_ethics", "description": "Demonstrates integrity, objectivity, and statutory compliance competence." }] },
+      { "id": "interview", "label": "Financial Controller Technical Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "technical_defense", "description": "Defends deferred tax adjustments and impairment provisions." }] },
+      { "id": "internship", "label": "Year-End Ledger Reconciliation & Journal Entries", "type": "task", "status": "designed", "rubric": [{ "criterion": "ledger_reconciliation", "description": "Reconciles intercompany accounts and posts accrual adjustments." }] },
+      { "id": "junior", "label": "Statutory Tax Computation & VAT Filing", "type": "task", "status": "designed", "rubric": [{ "criterion": "tax_compliance", "description": "Calculates corporate income tax and withholding tax deductions accurately." }] },
+      { "id": "mid", "label": "Cash Flow Forecast & Working Capital Strategy", "type": "task", "status": "designed", "rubric": [{ "criterion": "treasury_management", "description": "Optimizes debtor days and models 13-week rolling liquidity requirements." }] },
+      { "id": "senior", "label": "Board Financial Pack & Capital Budgeting", "type": "task", "status": "designed", "rubric": [{ "criterion": "executive_reporting", "description": "Presents segment profitability, IRR, and capital allocation recommendations to directors." }] }
+    ]
+  },
+  {
+    "career_id": "lawyer",
+    "name": "Lawyer",
+    "degree_gate": "LLB Law + BL (Nigerian Law School Bar Part II)",
+    "professional_body": "NBA / Body of Benchers",
+    "phases": [
+      { "id": "learn", "label": "Civil Litigation & Evidence Jurisprudence", "type": "reading", "status": "designed", "rubric": [{ "criterion": "legal_reasoning", "description": "Applies Evidence Act rules and appellate precedents with rigorous doctrine." }] },
+      { "id": "skills", "label": "Contractual Drafting & Risk Allocation", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "drafting_precision", "description": "Drafts indemnities, warranties, and dispute resolution clauses without ambiguity." }] },
+      { "id": "application", "label": "Pupillage & Law Practice Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "advocacy_evidence", "description": "Demonstrates moot court advocacy and legal research methodology." }] },
+      { "id": "interview", "label": "Senior Advocate Chamber Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "jurisdictional_instinct", "description": "Formulates urgent injunctive relief strategy and forum conveniens defense." }] },
+      { "id": "internship", "label": "Motion on Notice & Supporting Affidavit", "type": "task", "status": "designed", "rubric": [{ "criterion": "affidavit_drafting", "description": "Drafts legally unassailable facts in compliance with High Court Civil Procedure Rules." }] },
+      { "id": "junior", "label": "Commercial Due Diligence Legal Opinion", "type": "task", "status": "designed", "rubric": [{ "criterion": "due_diligence", "description": "Identifies title encumbrances, regulatory exposures, and pending litigation liabilities." }] },
+      { "id": "mid", "label": "Appellate Brief of Argument & Issues Formulation", "type": "task", "status": "designed", "rubric": [{ "criterion": "brief_writing", "description": "Distills grounds of appeal into cogent legal issues supported by Supreme Court authorities." }] },
+      { "id": "senior", "label": "Cross-Border Joint Venture Negotiations", "type": "task", "status": "designed", "rubric": [{ "criterion": "commercial_negotiation", "description": "Negotiates governance deadlocks, drag-along rights, and bilateral treaty protections." }] }
+    ]
+  },
+  {
+    "career_id": "journalist",
+    "name": "Journalist",
+    "degree_gate": "BA / BSc Mass Communication / Journalism / English / Media Studies",
+    "professional_body": "NUJ / NGE / IFJ",
+    "phases": [
+      { "id": "learn", "label": "Investigative Methodology & Media Law", "type": "reading", "status": "designed", "rubric": [{ "criterion": "editorial_ethics", "description": "Applies source protection, public interest defenses, and defamation safeguards." }] },
+      { "id": "skills", "label": "Open-Source Intelligence (OSINT) & Fact-Checking", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "verification_rigor", "description": "Cross-examines corporate filings, satellite imagery, and public expenditure records." }] },
+      { "id": "application", "label": "Editorial Trainee Desk Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "byline_portfolio", "description": "Presents verified news reporting portfolio with demonstrable investigative angle." }] },
+      { "id": "interview", "label": "Editor-in-Chief Newsroom Simulation", "type": "interview", "status": "designed", "rubric": [{ "criterion": "editorial_judgment", "description": "Balances breaking news verification speed against legal exposure and source safety." }] },
+      { "id": "internship", "label": "Breaking News Lead & Five W's Dispatch", "type": "task", "status": "designed", "rubric": [{ "criterion": "inverted_pyramid", "description": "Drafts clear, neutral, attribution-backed lead under deadline pressure." }] },
+      { "id": "junior", "label": "FOI Request & Public Procurement Reporting", "type": "task", "status": "designed", "rubric": [{ "criterion": "document_analysis", "description": "Uncovers budget line item discrepancies and procurement law infractions." }] },
+      { "id": "mid", "label": "Multi-Part Investigative Feature Series", "type": "task", "status": "designed", "rubric": [{ "criterion": "narrative_investigation", "description": "Constructs compelling human-centered investigative narrative with evidentiary corroboration." }] },
+      { "id": "senior", "label": "Defamation Pre-Publication Legal Vetting", "type": "task", "status": "designed", "rubric": [{ "criterion": "risk_mitigation", "description": "Directs right-of-reply protocols and bulletproofs sensitive exposes prior to publication." }] }
+    ]
+  }
+]

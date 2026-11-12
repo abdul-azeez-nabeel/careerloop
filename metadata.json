@@ -1,0 +1,8 @@
+{
+  "name": "CareerLoop",
+  "description": "Career simulation platform bridging the university-to-work gap in competitive job markets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

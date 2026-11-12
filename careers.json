@@ -1,0 +1,362 @@
+[
+  {
+    "career_id": "qs",
+    "name": "Quantity Surveyor",
+    "degree_gate": "BSc Quantity Surveying / Building / Civil Engineering",
+    "professional_body": "NIQS / QSRBN",
+    "phases": [
+      {
+        "id": "learn",
+        "label": "Foundations of Cost & Measurement",
+        "type": "reading",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "core_principles",
+            "description": "Accurately articulates quantity surveying ethical duties, standard measurement methodologies (BESMM/NRM), and contractual role."
+          },
+          {
+            "criterion": "comprehension",
+            "description": "Demonstrates deep understanding of the text, avoiding superficial repetition and explaining implications clearly."
+          }
+        ],
+        "content": "THE QUANTITY SURVEYOR'S FIDUCIARY DUTY AND MEASUREMENT STANDARDS\n\n1. Role and Legal Definition:\nThe Quantity Surveyor (QS) is the construction industry's cost and commercial consultant, operating under the regulatory authority of the Nigerian Institute of Quantity Surveyors (NIQS) and Quantity Surveyors Registration Board of Nigeria (QSRBN). The QS acts as an objective financial referee between employer (client) and contractor.\n\n2. Standard Method of Measurement (SMM):\nConstruction works cannot be priced reliably without unambiguous measurement rules. In our jurisdiction, the Building and Engineering Standard Method of Measurement (BESMM4), aligned with the international New Rules of Measurement (NRM2), governs the classification of work. Key principles include:\n- Net Measurement: Items are measured net as fixed in position, without hidden trade allowances, unless specifically stated.\n- Trade Sequencing: Measurement progresses systematically from Substructure to Superstructure, Internal Finishes, Services, and External Works.\n- Preliminaries: Fixed and time-related overheads (site administration, insurances, power, temporary works) must be priced distinctly from permanent works.\n\n3. Interim Valuations and Ethical Boundaries:\nA core duty is conducting periodic on-site valuations. The QS measures physical works executed to date, verifies materials stored on-site under valid vesting deeds, applies contract retention (commonly 5%), and recommends payment. The QS has an uncompromising fiduciary responsibility to reject claims for defective work, advance payments without security bonds, and unsupported daywork claims.",
+        "questions": [
+          "Explain why standard methods of measurement (e.g. BESMM/NRM) mandate that quantities be measured 'net as fixed in position', and describe what commercial consequences arise if estimators include hidden waste factors inside gross dimensional measurements.",
+          "During an interim site valuation, the main contractor requests certification of imported elevator machinery stored off-site in an unbonded commercial warehouse. Explain the contractual and legal risks to the client, and state what specific documentation must be executed before certification can proceed."
+        ]
+      },
+      {
+        "id": "skills",
+        "label": "Technical Measurement & Rate Build-up",
+        "type": "lesson",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "rate_logic",
+            "description": "Correctly breaks down basic material prices, site handling, plant utilization, and productive artisan labour outputs."
+          },
+          {
+            "criterion": "wastage_and_margin",
+            "description": "Applies realistic wastage allowances (e.g. concrete 5%, blocks 7.5%, rebar 5%) and defensible contractor overhead & profit margins."
+          }
+        ],
+        "lessons": [
+          {
+            "title": "Unit Rate Build-Up Fundamentals",
+            "content": "A unit rate in a Bill of Quantities is the all-inclusive price per unit of work (e.g., per m³ of concrete, per m² of blockwork, or per tonne of steel). The mathematical formula is: Unit Rate = (Basic Material Cost + Handling + Wastage) + (Plant & Tools) + (Direct Labour Rate / Daily Output) + (Overheads & Profit %).\n\nFor 1:2:4 (20N/mm²) in-situ concrete, 1 m³ finished requires approximately 6.4 bags of cement, 0.44 m³ of sharp sand, and 0.88 m³ of crushed granite, plus a minimum 5% batching and handling wastage factor. Labour output is based on an artisan team (1 mason + 4 labourers) producing approx. 3.5 m³ per 8-hour day.",
+            "practice": "Calculate the unit rate per m³ for reinforced concrete grade 20 in ground floor slab (150mm thick). State your assumptions for material costs (cement bags, sand m³, granite m³), apply a 5% wastage margin, estimate labour cost per m³, and add a 15% contractor overhead and profit margin. Show your calculations and reasoning."
+          },
+          {
+            "title": "Earthwork Bulking, Compaction & Disposal",
+            "content": "When soil is excavated from its natural bed, it increases in volume due to aeration — a phenomenon known as 'bulking'. Ordinary soil expands by 20% to 25%, while clay bulks by 30%. When backfilled and mechanically compacted, it consolidates to approximately 90-95% of its original insitu volume.\n\nUnder standard measurement rules, excavation is measured net in-situ. If excavated surplus spoil must be loaded into tipper trucks and removed from site, estimators must account for the bulked volume to determine the required number of 10m³ truck trips.",
+            "practice": "You have a foundation trench excavation measuring 120 m³ net in-situ volume. 45 m³ is required for backfilling around foundation walls (with 10% compaction consolidation allowance). The remaining spoil must be hauled 8 km off-site using 10 m³ capacity tipper trucks. Assuming a 25% soil bulking factor, calculate the net surplus volume, the bulked volume for haulage, and the exact number of truckloads required."
+          }
+        ]
+      },
+      {
+        "id": "application",
+        "label": "Graduate Articleship Application",
+        "type": "application",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "professional_positioning",
+            "description": "Demonstrates clear alignment with NIQS/QSRBN competencies, technical coursework mastery, and commercial awareness."
+          },
+          {
+            "criterion": "evidence_of_capability",
+            "description": "Provides concrete academic project or internship evidence (e.g. taking off quantities, interim valuations, cost modeling) rather than vague aspirations."
+          }
+        ],
+        "brief": "You are applying for a Graduate Trainee Quantity Surveyor position at a leading national cost consultancy firm (handling commercial towers, institutional healthcare, and civil infrastructure). \n\nSubmit your Professional Statement (400–600 words) addressing:\n1. Your Degree Gate & Technical Foundation: How your undergraduate training in measurement, construction technology, and building contract law prepared you for live commercial practice.\n2. Applied Experience: An exact example of a complex take-off, cost estimation, or valuation exercise you completed during your final year dissertation or industrial training (SIWES).\n3. Professional Ethics & Career Commitment: How you uphold NIQS professional ethics regarding conflict of interest, commercial confidentiality, and your roadmap toward corporate QSRBN registration."
+      },
+      {
+        "id": "interview",
+        "label": "Graduate Technical Interview",
+        "type": "interview",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "professional_judgment",
+            "description": "Applies rigorous standard methods of measurement, contractual conditions, and commercial impartiality without compromising project viability or professional ethics."
+          },
+          {
+            "criterion": "risk_communication",
+            "description": "Articulates cost, schedule, and legal exposures transparently with structured data, clear financial impact scenarios, and pragmatic mitigation measures."
+          },
+          {
+            "criterion": "process_and_escalation",
+            "description": "Follows formal contractual notice requirements, independent physical verification protocols, dispute resolution steps, and certified sign-off hierarchies."
+          }
+        ],
+        "questions": [
+          "On a commercial site inspection, the main contractor claims unexpected hard rock excavation at 1.8m depth and submits an urgent daywork variation claim without prior architect notice. How do you assess and respond to this claim under standard contractual terms?",
+          "You observe significant material inflation (rebar up 32% and cement up 25%) midway through a private developer's fixed-price building project with locked bank milestone disbursements. How do you communicate this cost risk and structure actionable mitigation options?",
+          "During an interim valuation certificate review, the contractor claims 75% completion of structural blockwork, but your independent physical measurement reveals only 55%. What standard process and escalation steps do you take to resolve this discrepancy without stalling the project?",
+          "A key subcontractor offers to expedite delivery of imported MEP items if you certify an advance payment without standard off-site vesting certificate and insurance bond documentation. How do you respond to this request in line with professional ethics and cost control standards?"
+        ]
+      },
+      {
+        "id": "internship",
+        "label": "BOQ Take-off & Cost Logic",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "quantity_logic",
+            "description": "Demonstrates sound logical sequencing of construction items, consistent measurement units (m³, m², m, nr), and mathematical rigor in quantity calculations."
+          },
+          {
+            "criterion": "completeness",
+            "description": "Covers all key building trades from substructure to finishes, services rough-in, preliminaries, and clearly defines essential operational site assumptions."
+          },
+          {
+            "criterion": "justification",
+            "description": "Provides rational justification for selected unit rate build-ups, material wastage margins, structural allowances, and contingency reserves."
+          }
+        ],
+        "brief": "You are assigned as a graduate QS intern at a project consultancy firm. You must prepare a Preliminary Bill of Quantities (BOQ) structure and cost-logic breakdown for a proposed 3-bedroom detached residential bungalow (gross external floor area approx. 140 m² on firm sandy clay ground).\n\nYour submission must document:\n1. Work Sections Breakdown: Structured breakdown encompassing Substructure (site clearance, trench excavation, concrete footings, foundation blockwork, damp-proof membrane/DPC, hardcore bed, ground floor slab), Superstructure (sandcrete block walls, reinforced concrete lintels and tie beams), Roof (treated timber trusses/rafters, aluminum long-span roofing sheets), Finishes & Fittings (internal plastering/rendering, ceramic floor tiles, ceiling, doors/windows), Services rough-in (plumbing and electrical conduit), and Preliminaries (water, power, site hoarding, supervision).\n2. Explicit Technical Assumptions: Foundation excavation depth and width, concrete mix ratio (e.g. 1:2:4 / 20N/mm²), soil bearing capacity assumptions, waste factors (e.g. 5-7% on tiles/blocks), and contingency allowance percentage.\n3. Measurement & Cost Logic: Describe the calculation method for unit rates (build-up of basic materials, site handling, plant, and skilled/unskilled artisan labor rates) following standard civil/building measurement conventions (e.g. BESMM/CESMM/NRM)."
+      },
+      {
+        "id": "junior",
+        "label": "Interim Valuation & Variation Audit",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "measurement_accuracy",
+            "description": "Applies rigorous physical progress measurement against contract drawings, avoiding advance payments on unvested materials."
+          },
+          {
+            "criterion": "contractual_validity",
+            "description": "Correctly assesses daywork claims, verifying written architect instructions and contemporaneous site records before certification."
+          },
+          {
+            "criterion": "cost_reporting",
+            "description": "Presents a clear financial summary showing original contract sum, approved variations, retention deductions, and net certified amount."
+          }
+        ],
+        "brief": "You are a Junior QS on a ₦450M commercial shopping plaza project. The contractor has submitted Interim Payment Application No. 04 claiming ₦68.5M for works executed to date plus ₦14.2M in variation claims (comprising ₦8.5M for unexpected foundation deepening due to soft peat and ₦5.7M for contractor claimed equipment standing idle during a 2-week community protest).\n\nYour assignment:\n1. Technical Audit: Detail your on-site measurement audit procedure for verifying structural substructure and column progress.\n2. Variation Assessment: Analyze the two variation claims under standard building contract clauses. State which claim is valid or invalid, what contemporaneous records (daily logs, engineer site directions, weather reports) are mandatory, and what daywork rate adjustments apply.\n3. Valuation Certificate Recommendation: Formulate the draft financial recommendation statement clearly detailing: Gross Value of Work Executed, Agreed Variations, 5% Retention Deduction, Previous Payments Deducted, and Net Amount Recommended for Certification."
+      },
+      {
+        "id": "mid",
+        "label": "Contractual Dispute & Delay Claim",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "contract_mechanisms",
+            "description": "Applies standard contract clauses (e.g. JCT / FIDIC / PPA) governing Extension of Time (EOT) and direct loss/expense claims."
+          },
+          {
+            "criterion": "substantiation",
+            "description": "Separates compensable client-caused delay from contractor culpable delay using critical path delay analysis principles."
+          },
+          {
+            "criterion": "commercial_negotiation",
+            "description": "Balances client financial exposure with fair contractor remuneration to prevent costly litigation or project abandonment."
+          }
+        ],
+        "brief": "As a Mid-level Chartered Commercial Manager on a 10-storey commercial office development (Contract Sum: ₦2.8 Billion under standard JCT/FIDIC conditions), you receive a formal claim from the main contractor for a 45-day Extension of Time (EOT) and ₦52.8M in Direct Loss and Expense.\n\nThe contractor cites:\n- Delayed issue of coordinated structural and MEP basement slab penetration drawings by the architect (28 days).\n- Inability to secure heavy diesel generators due to nationwide logistics union strikes (17 days).\n- Site overhead prolongation claims (project manager salary, tower crane hire, site security, and unabsorbed head-office overhead based on the Hudson or Emden formula).\n\nProduce your Commercial Determination Report to the Client Board detailing:\n1. Extension of Time Analysis: Differentiating between Relevant Events (compensable client delays) and Force Majeure (neutral non-compensable delays).\n2. Financial Audit of Loss/Expense: Evaluating which site overheads are allowable, disallowing unsupported head office overhead claims, and computing the verified financial entitlement.\n3. Risk Mitigation & Settlement Strategy: Structuring a negotiated commercial settlement to preserve contractor solvency and project momentum while safeguarding client capital."
+      },
+      {
+        "id": "senior",
+        "label": "Strategic Value Engineering & Procurement",
+        "type": "task",
+        "status": "live",
+        "rubric": [
+          {
+            "criterion": "strategic_procurement",
+            "description": "Recommends an optimal procurement route (Traditional Lump Sum, Design & Build, or Management Contracting) aligned with client risk tolerance."
+          },
+          {
+            "criterion": "value_engineering",
+            "description": "Identifies lifecycle cost savings through alternative structural systems or materials without sacrificing performance or design intent."
+          },
+          {
+            "criterion": "whole_life_costing",
+            "description": "Evaluates capital expenditure (CapEx) against operational expenditure (OpEx) over a 25-year asset lifecycle."
+          }
+        ],
+        "brief": "You are the Lead Senior Cost Consultant / Partner advising a state government and private consortium on a proposed ₦12 Billion specialist teaching hospital. Tender returns have come in 24% over the approved capital budget, driven by specialized imported architectural cladding, high-specification HVAC chillers, and contractor risk premiums due to volatile currency exchange rates.\n\nDeliver your Senior Advisory Executive Paper:\n1. Value Engineering Intervention: Propose three concrete technical substitutions (e.g. structural framing alternatives, local vs imported facade materials, modular MEP units) that will recover at least 15% of capital expenditure without compromising clinical safety or statutory building codes.\n2. Procurement Route Appraisal: Critically evaluate Traditional Lump Sum vs. Design-and-Build vs. Two-Stage Early Contractor Involvement (ECI). Recommend the optimal strategy for transferring currency exchange and supply chain risk.\n3. 25-Year Whole Life Costing (WLC): Present a strategic framework comparing initial CapEx savings against long-term OpEx (energy efficiency, maintenance cycles, replacement reserves) to guide the investment steering committee."
+      }
+    ]
+  },
+  {
+    "career_id": "audit",
+    "name": "Audit / Assurance",
+    "degree_gate": "BSc Finance / Accounting / Economics (2:1 minimum)",
+    "professional_body": "ACCA / ICAN",
+    "phases": [
+      {
+        "id": "learn",
+        "label": "Accounting Foundations & GAAP/IFRS",
+        "type": "reading",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "gaap_principles", "description": "Understands revenue recognition and prudence." }
+        ]
+      },
+      {
+        "id": "skills",
+        "label": "Financial Analysis & Internal Controls",
+        "type": "lesson",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "control_testing", "description": "Tests internal control environments." }
+        ]
+      },
+      {
+        "id": "application",
+        "label": "Trainee Articleship Application",
+        "type": "application",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "articleship_statement", "description": "Demonstrates commercial aptitude." }
+        ]
+      },
+      {
+        "id": "interview",
+        "label": "Audit Associate Technical Interview",
+        "type": "interview",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "professional_skepticism", "description": "Critically questions management assertions." }
+        ]
+      },
+      {
+        "id": "internship",
+        "label": "Substantive Testing & Workpapers",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "evidence_gathering", "description": "Prepares substantive audit workpapers." }
+        ]
+      },
+      {
+        "id": "junior",
+        "label": "Inventory Observation & Cash Cut-off",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "cut_off_testing", "description": "Executes physical count and cut-off reconciliation." }
+        ]
+      },
+      {
+        "id": "mid",
+        "label": "Going Concern & Audit Opinion",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "going_concern_evaluation", "description": "Assesses liquidity and going concern risks." }
+        ]
+      },
+      {
+        "id": "senior",
+        "label": "Audit Committee Assurance Paper",
+        "type": "task",
+        "status": "designed",
+        "rubric": [
+          { "criterion": "governance_reporting", "description": "Presents key audit matters to the audit committee." }
+        ]
+      }
+    ]
+  },
+  {
+    "career_id": "auto",
+    "name": "Automobile Engineer",
+    "degree_gate": "BEng / BSc Automotive / Mechanical / Mechatronics Engineering",
+    "professional_body": "COREN / NSE / IMechE",
+    "phases": [
+      { "id": "learn", "label": "Powertrain & Thermodynamics", "type": "reading", "status": "designed", "rubric": [{ "criterion": "thermal_efficiency", "description": "Demonstrates internal combustion and EV thermodynamic principles." }] },
+      { "id": "skills", "label": "Chassis Telemetry & ECU Diagnostics", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "diagnostic_accuracy", "description": "Interprets CAN-bus error logs and sensor telemetry." }] },
+      { "id": "application", "label": "Graduate Trainee Technical Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "engineering_competency", "description": "Demonstrates design and manufacturing evidence." }] },
+      { "id": "interview", "label": "Automotive Systems Panel Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "safety_compliance", "description": "Evaluates fail-safe architectures and braking safety protocols." }] },
+      { "id": "internship", "label": "Suspension Kinematics & Brake Sizing", "type": "task", "status": "designed", "rubric": [{ "criterion": "load_calculation", "description": "Calculates dynamic axle load transfer and stopping distance." }] },
+      { "id": "junior", "label": "Assembly Quality Assurance & NVH Audit", "type": "task", "status": "designed", "rubric": [{ "criterion": "quality_control", "description": "Identifies vibration harmonics and tolerance deviations." }] },
+      { "id": "mid", "label": "Hybrid Powertrain Calibration", "type": "task", "status": "designed", "rubric": [{ "criterion": "energy_management", "description": "Optimizes regenerative braking and battery discharge curves." }] },
+      { "id": "senior", "label": "Homologation & Fleet Reliability Paper", "type": "task", "status": "designed", "rubric": [{ "criterion": "regulatory_compliance", "description": "Presents emissions certification and lifecycle durability report." }] }
+    ]
+  },
+  {
+    "career_id": "swe",
+    "name": "Software Engineer",
+    "degree_gate": "BSc Computer Science / Software Engineering / Electrical Engineering",
+    "professional_body": "CPN / IEEE Computer Society / BCS",
+    "phases": [
+      { "id": "learn", "label": "Data Structures & Computational Complexity", "type": "reading", "status": "designed", "rubric": [{ "criterion": "algorithmic_logic", "description": "Evaluates time/space complexity and concurrency models." }] },
+      { "id": "skills", "label": "System Architecture & API Design", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "system_design", "description": "Designs idempotent, resilient distributed endpoints." }] },
+      { "id": "application", "label": "Engineering Residency Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "code_evidence", "description": "Presents verifiable production code and open-source contributions." }] },
+      { "id": "interview", "label": "Live Technical Architecture Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "tradeoff_evaluation", "description": "Navigates CAP theorem, cache consistency, and database sharding." }] },
+      { "id": "internship", "label": "Distributed Rate Limiter Implementation", "type": "task", "status": "designed", "rubric": [{ "criterion": "concurrency_handling", "description": "Implements token bucket algorithm with Redis atomic operations." }] },
+      { "id": "junior", "label": "Database Indexing & Query Optimization", "type": "task", "status": "designed", "rubric": [{ "criterion": "query_tuning", "description": "Eliminates full table scans and optimizes B-Tree index utilization." }] },
+      { "id": "mid", "label": "Event-Driven Microservices Refactor", "type": "task", "status": "designed", "rubric": [{ "criterion": "fault_tolerance", "description": "Designs dead-letter queues and event sourcing schema." }] },
+      { "id": "senior", "label": "Zero-Downtime Migration Architecture", "type": "task", "status": "designed", "rubric": [{ "criterion": "architectural_strategy", "description": "Directs dual-write synchronization and rollback failovers." }] }
+    ]
+  },
+  {
+    "career_id": "ib",
+    "name": "Investment Banker",
+    "degree_gate": "BSc Economics / Finance / Mathematics / Engineering / Business",
+    "professional_body": "CIS / SEC / CFA Institute",
+    "phases": [
+      { "id": "learn", "label": "Corporate Valuation & Capital Structures", "type": "reading", "status": "designed", "rubric": [{ "criterion": "valuation_methodology", "description": "Applies DCF, comparable company analysis, and precedent transactions." }] },
+      { "id": "skills", "label": "3-Statement Financial Modeling & LBO", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "model_mechanics", "description": "Builds dynamically linked financial statements with debt waterfalls." }] },
+      { "id": "application", "label": "Analyst Class Cover & Deal Sheet", "type": "application", "status": "designed", "rubric": [{ "criterion": "commercial_presentation", "description": "Articulates transaction rationale and financial market thesis." }] },
+      { "id": "interview", "label": "Managing Director M&A Case Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "strategic_defense", "description": "Defends merger accretion/dilution and synergy assumptions under scrutiny." }] },
+      { "id": "internship", "label": "Acquisition Pitch Book & WACC Calculation", "type": "task", "status": "designed", "rubric": [{ "criterion": "pitch_accuracy", "description": "Calculates unlevered beta, debt capacity, and purchase price multiple." }] },
+      { "id": "junior", "label": "Synergy Sensitivities & Debt Capacity Audit", "type": "task", "status": "designed", "rubric": [{ "criterion": "risk_modeling", "description": "Models interest coverage ratios under severe macro downside scenarios." }] },
+      { "id": "mid", "label": "Fairness Opinion & Transaction Structuring", "type": "task", "status": "designed", "rubric": [{ "criterion": "structuring_acumen", "description": "Structures earnouts, stock-for-stock exchange ratios, and break fees." }] },
+      { "id": "senior", "label": "Cross-Border IPO Syndicate Strategy", "type": "task", "status": "designed", "rubric": [{ "criterion": "capital_markets_strategy", "description": "Advises on dual-listing tranches, institutional book-building, and cornerstone allocations." }] }
+    ]
+  },
+  {
+    "career_id": "accountant",
+    "name": "Accountant",
+    "degree_gate": "BSc Accounting / Finance / Business Administration",
+    "professional_body": "ICAN / ANAN / ACCA",
+    "phases": [
+      { "id": "learn", "label": "IFRS Standards & Financial Reporting", "type": "reading", "status": "designed", "rubric": [{ "criterion": "accounting_principles", "description": "Applies revenue recognition (IFRS 15) and leases (IFRS 16)." }] },
+      { "id": "skills", "label": "Management Accounting & Variance Analysis", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "costing_precision", "description": "Computes standard costing variances and contribution margins." }] },
+      { "id": "application", "label": "Trainee Accountant Professional Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "professional_ethics", "description": "Demonstrates integrity, objectivity, and statutory compliance competence." }] },
+      { "id": "interview", "label": "Financial Controller Technical Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "technical_defense", "description": "Defends deferred tax adjustments and impairment provisions." }] },
+      { "id": "internship", "label": "Year-End Ledger Reconciliation & Journal Entries", "type": "task", "status": "designed", "rubric": [{ "criterion": "ledger_reconciliation", "description": "Reconciles intercompany accounts and posts accrual adjustments." }] },
+      { "id": "junior", "label": "Statutory Tax Computation & VAT Filing", "type": "task", "status": "designed", "rubric": [{ "criterion": "tax_compliance", "description": "Calculates corporate income tax and withholding tax deductions accurately." }] },
+      { "id": "mid", "label": "Cash Flow Forecast & Working Capital Strategy", "type": "task", "status": "designed", "rubric": [{ "criterion": "treasury_management", "description": "Optimizes debtor days and models 13-week rolling liquidity requirements." }] },
+      { "id": "senior", "label": "Board Financial Pack & Capital Budgeting", "type": "task", "status": "designed", "rubric": [{ "criterion": "executive_reporting", "description": "Presents segment profitability, IRR, and capital allocation recommendations to directors." }] }
+    ]
+  },
+  {
+    "career_id": "lawyer",
+    "name": "Lawyer",
+    "degree_gate": "LLB Law + BL (Nigerian Law School Bar Part II)",
+    "professional_body": "NBA / Body of Benchers",
+    "phases": [
+      { "id": "learn", "label": "Civil Litigation & Evidence Jurisprudence", "type": "reading", "status": "designed", "rubric": [{ "criterion": "legal_reasoning", "description": "Applies Evidence Act rules and appellate precedents with rigorous doctrine." }] },
+      { "id": "skills", "label": "Contractual Drafting & Risk Allocation", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "drafting_precision", "description": "Drafts indemnities, warranties, and dispute resolution clauses without ambiguity." }] },
+      { "id": "application", "label": "Pupillage & Law Practice Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "advocacy_evidence", "description": "Demonstrates moot court advocacy and legal research methodology." }] },
+      { "id": "interview", "label": "Senior Advocate Chamber Interview", "type": "interview", "status": "designed", "rubric": [{ "criterion": "jurisdictional_instinct", "description": "Formulates urgent injunctive relief strategy and forum conveniens defense." }] },
+      { "id": "internship", "label": "Motion on Notice & Supporting Affidavit", "type": "task", "status": "designed", "rubric": [{ "criterion": "affidavit_drafting", "description": "Drafts legally unassailable facts in compliance with High Court Civil Procedure Rules." }] },
+      { "id": "junior", "label": "Commercial Due Diligence Legal Opinion", "type": "task", "status": "designed", "rubric": [{ "criterion": "due_diligence", "description": "Identifies title encumbrances, regulatory exposures, and pending litigation liabilities." }] },
+      { "id": "mid", "label": "Appellate Brief of Argument & Issues Formulation", "type": "task", "status": "designed", "rubric": [{ "criterion": "brief_writing", "description": "Distills grounds of appeal into cogent legal issues supported by Supreme Court authorities." }] },
+      { "id": "senior", "label": "Cross-Border Joint Venture Negotiations", "type": "task", "status": "designed", "rubric": [{ "criterion": "commercial_negotiation", "description": "Negotiates governance deadlocks, drag-along rights, and bilateral treaty protections." }] }
+    ]
+  },
+  {
+    "career_id": "journalist",
+    "name": "Journalist",
+    "degree_gate": "BA / BSc Mass Communication / Journalism / English / Media Studies",
+    "professional_body": "NUJ / NGE / IFJ",
+    "phases": [
+      { "id": "learn", "label": "Investigative Methodology & Media Law", "type": "reading", "status": "designed", "rubric": [{ "criterion": "editorial_ethics", "description": "Applies source protection, public interest defenses, and defamation safeguards." }] },
+      { "id": "skills", "label": "Open-Source Intelligence (OSINT) & Fact-Checking", "type": "lesson", "status": "designed", "rubric": [{ "criterion": "verification_rigor", "description": "Cross-examines corporate filings, satellite imagery, and public expenditure records." }] },
+      { "id": "application", "label": "Editorial Trainee Desk Application", "type": "application", "status": "designed", "rubric": [{ "criterion": "byline_portfolio", "description": "Presents verified news reporting portfolio with demonstrable investigative angle." }] },
+      { "id": "interview", "label": "Editor-in-Chief Newsroom Simulation", "type": "interview", "status": "designed", "rubric": [{ "criterion": "editorial_judgment", "description": "Balances breaking news verification speed against legal exposure and source safety." }] },
+      { "id": "internship", "label": "Breaking News Lead & Five W's Dispatch", "type": "task", "status": "designed", "rubric": [{ "criterion": "inverted_pyramid", "description": "Drafts clear, neutral, attribution-backed lead under deadline pressure." }] },
+      { "id": "junior", "label": "FOI Request & Public Procurement Investigation", "type": "task", "status": "designed", "rubric": [{ "criterion": "document_interrogation", "description": "Uncovers budget line item discrepancies and procurement law infractions." }] },
+      { "id": "mid", "label": "Multi-Part Investigative Feature Series", "type": "task", "status": "designed", "rubric": [{ "criterion": "narrative_investigation", "description": "Constructs compelling human-centered investigative narrative with evidentiary corroboration." }] },
+      { "id": "senior", "label": "Defamation Pre-Publication Legal Vetting", "type": "task", "status": "designed", "rubric": [{ "criterion": "risk_mitigation", "description": "Directs right-of-reply protocols and bulletproofs sensitive exposes prior to publication." }] }
+    ]
+  }
+]
